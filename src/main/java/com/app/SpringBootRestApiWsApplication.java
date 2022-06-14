@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootRestApiWsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Spring boot web service example");
 		SpringApplication.run(SpringBootRestApiWsApplication.class, args);
 	}
 
